@@ -1,0 +1,17 @@
+Upon first opening the application, you will be greeted by the welcome screen. Click "Start New Game" to start a new game, or "Continue", if you would like to continue the previous round (if applicable). 
+
+Once the welcome screen has disappeared, LEFT CLICK on any one of the tiles to start the game.
+
+A portion of tiles will become “cleared”, and the timer in the upper left corner will begin counting upwards from zero. 
+
+The numbers on uncovered tiles indicate how many “mines” are adjacent to that tile. A tile is adjacent to another tile when it shares at least one corner with the other tile. If an uncovered tile does not have a number on it, there are no mines adjacent to that tile. 
+
+Once you are certain that you have discovered a mine, RIGHT CLICK the tile to place a flag on it. You can only place as many flags as there are in your inventory, which can be seen in the upper left corner beside the timer. Right click a flagged tile to remove its flag. 
+
+LEFT CLICK a tile to clear it. If you clear a tile that is covering a mine, the game is over. 
+
+The goal of the game is to clear all tiles that do not have mines under them as fast as possible. 
+
+If you clear all tiles successfully, you will receive a notification indicating the total time elapsed, which will be recorded in a text file that can be accessed by a) clicking on the settings icon --> Score Record, or b) manually opening "record.txt" in the application folder. 
+
+You can also save the current game and come back later by clicking on the settings icon --> Save and Quit. 
